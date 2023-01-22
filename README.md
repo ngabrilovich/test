@@ -13,4 +13,4 @@ morbo script/mail_log_test - и погнали, по умолчанию на 300
 
 Поиск по адресу, кол-во отображаемых строк и флаг, если их больше 100 - в /lib/MailLogTest/Controller/Root.pm, т.к. в message адреса класть было некуда, пришлось выкручиваться.
 
-Ну и основной шаблон - /templates/root/search.html
+Ну и основной шаблон - /templates/root/search.html.ep
