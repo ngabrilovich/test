@@ -1,0 +1,7 @@
+%title 'Search';
+%layout 'default';
+%= form_for search  => begin
+    %= label_for address => 'Enter address: '
+    %= text_field 'email', id => 'search_address'
+    %= submit_button 'Search'
+% end

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <style>
+      body {
+	  font-family: sans-serif;
+      }
+      table {
+	  border: 1px solid #8a6801;
+	  border-collapse: collapse;
+      }
+      td {
+	  padding: .2em;
+	  border: 1px solid #8a6801;
+      }
+      form {
+	  padding: .2em;
+      }
+      #warn {
+	  color: #96051f;
+	  padding: .2em;
+	  margin: .2em 0;
+      }
+    </style>
+  </head>
+  <body>
+    <%= content %>
+  </body>
+</html>
